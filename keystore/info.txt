@@ -1,0 +1,30 @@
+keytool -list -v -keystore F:\Century\Century\keystore\keystore.jks -alias century -storepass 1234567890 -keypass 1234567890
+
+Alias name: century
+Creation date: 16 Dec, 2019
+Entry type: PrivateKeyEntry
+Certificate chain length: 1
+Certificate[1]:
+Owner: CN=Nilesh Kansal, OU=Application Development, O=Application Development, L=Indore, ST=India, C=91
+Issuer: CN=Nilesh Kansal, OU=Application Development, O=Application Development, L=Indore, ST=India, C=91
+Serial number: e01a8fd
+Valid from: Mon Dec 16 09:40:51 IST 2019 until: Fri Dec 09 09:40:51 IST 2044
+Certificate fingerprints:
+         MD5:  B5:C2:7B:AB:DC:7B:C1:A3:8E:9D:3E:B4:60:AF:76:7D
+         SHA1: 73:F2:D2:CB:E7:BA:6D:38:DF:97:DE:29:D6:13:15:73:3B:A0:8C:78
+         SHA256: 94:A8:09:AF:1D:48:17:37:96:BD:42:37:2B:7F:F2:F5:9B:AC:B1:4A:6E:6F:5E:1F:6F:9C:CE:1F:AF:15:D2:2A
+Signature algorithm name: SHA256withRSA
+Subject Public Key Algorithm: 2048-bit RSA key
+Version: 3
+Extensions:
+
+#1: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 66 EF FD 40 48 5C C0 B4   94 8A E1 11 8D FD FD 1C  f..@H\..........
+0010: 76 EA 91 9B                                        v...
+]
+]
+Warning: The JKS keystore uses a proprietary format. It is recommended to migrate to PKCS12 which is an industry standard format using
+"keytool -importkeystore -srckeystore F:\Century\Century\keystore\keystore.jks -destkeystore F:\Century\Century\keystore\keystore.jks -deststoretype pkcs12".
+
